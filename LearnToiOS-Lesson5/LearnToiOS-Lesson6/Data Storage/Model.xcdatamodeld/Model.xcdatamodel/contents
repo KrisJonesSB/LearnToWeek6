@@ -3,7 +3,7 @@
     <entity name="Repo" representedClassName="Repo" syncable="YES" codeGenerationType="class">
         <attribute name="avatarUrl" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="htmlUrl" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="isPrivate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isPrivate" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="owner" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="repoDescription" optional="YES" attributeType="String" syncable="YES"/>

@@ -1,6 +1,6 @@
 //
 //  CoreDataStack.swift
-//  LearnToiOS-Lesson5
+//  LearnToiOS-Lesson6
 //
 //  Created by Kris Jones on 17/06/2018.
 //  Copyright © 2018 LearnTo iOS. All rights reserved.

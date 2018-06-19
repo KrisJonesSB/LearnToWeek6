@@ -18,9 +18,11 @@
 		DB91973720C5EC5100DDD57F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB91973620C5EC5100DDD57F /* DetailViewController.swift */; };
 		DB91973920C5F01200DDD57F /* AvatarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB91973820C5F01200DDD57F /* AvatarViewController.swift */; };
 		DB91973B20C5F5F300DDD57F /* RecentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB91973A20C5F5F300DDD57F /* RecentsTableViewController.swift */; };
+		FC3652F420D98213002B9FDF /* RepoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3652F320D98213002B9FDF /* RepoTableViewController.swift */; };
 		FC3E2E8320D70C430016256C /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3E2E8220D70C430016256C /* CoreDataStack.swift */; };
 		FC3E2E8620D70D8E0016256C /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC3E2E8420D70D8E0016256C /* Model.xcdatamodeld */; };
 		FC58B9DA20D827EB0013477F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC58B9D920D827EB0013477F /* Info.plist */; };
+		FC58B9DC20D8297D0013477F /* MyReposTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC58B9DB20D8297D0013477F /* MyReposTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,9 +38,11 @@
 		DB91973620C5EC5100DDD57F /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		DB91973820C5F01200DDD57F /* AvatarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarViewController.swift; sourceTree = "<group>"; };
 		DB91973A20C5F5F300DDD57F /* RecentsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentsTableViewController.swift; sourceTree = "<group>"; };
+		FC3652F320D98213002B9FDF /* RepoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoTableViewController.swift; sourceTree = "<group>"; };
 		FC3E2E8220D70C430016256C /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		FC3E2E8520D70D8E0016256C /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		FC58B9D920D827EB0013477F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC58B9DB20D8297D0013477F /* MyReposTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyReposTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +129,8 @@
 		FC58B9D720D8271E0013477F /* My Saved Repos */ = {
 			isa = PBXGroup;
 			children = (
+				FC58B9DB20D8297D0013477F /* MyReposTableViewController.swift */,
+				FC3652F320D98213002B9FDF /* RepoTableViewController.swift */,
 			);
 			path = "My Saved Repos";
 			sourceTree = "<group>";
@@ -202,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB91973920C5F01200DDD57F /* AvatarViewController.swift in Sources */,
+				FC3652F420D98213002B9FDF /* RepoTableViewController.swift in Sources */,
 				DB91973120C5798100DDD57F /* ModelController.swift in Sources */,
 				DB91973B20C5F5F300DDD57F /* RecentsTableViewController.swift in Sources */,
 				FC3E2E8320D70C430016256C /* CoreDataStack.swift in Sources */,
@@ -211,6 +218,7 @@
 				FC3E2E8620D70D8E0016256C /* Model.xcdatamodeld in Sources */,
 				DB91973720C5EC5100DDD57F /* DetailViewController.swift in Sources */,
 				0415A54F20CC861B00E4408D /* WebViewController.swift in Sources */,
+				FC58B9DC20D8297D0013477F /* MyReposTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
